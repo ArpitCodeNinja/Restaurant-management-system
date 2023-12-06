@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="C:\Users\arpit\OneDrive\Desktop\Restauant\33996b80-ff35-4d84-b296-230aa5ac11a5-cover.png" 
+    type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Mangement System</title>
+    <link rel="stylesheet" href="Foodweb.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200
+    &family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=
+    Open+Sans&family
+    =PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family
+    =Roboto+Slab&display=swap"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Food HUB</h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" id="inp" placeholder="Search Here ..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i onclick="nav()" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+
+        <div class="login">
+            <h2>Log In </h2>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder="Enter Password"> <br>
+            <button>Log In</button>
+
+        </div>
+        <div class="nav">
+            <p>Home</p>
+            <p>Foods</p>
+            <p>Blog</p>
+            <p>Customer</p>
+            <p>Book Table</p>
+            <p>About us</p>
+            <p>Contact</p>
+
+        </div>
+
+        <!-- main Page -->
+
+        <div class="main">
+            <div class="text">
+                <h1>Simple & Tasty Recipes</h1>
+                <p>Step into the world of culinary magic at our award-winning restaurant where our chefs create 
+                    dishes that are not only delicious, but visually stunning as well.</p>
+                <button>Explore More</button>
+            </div>
+            <img src="burger (2).png" alt="">
+        </div>
+
+        <!--  Card Food -->
+
+        <table>
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Foods</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="fds (1).jpg" alt="">
+                            <h2>299 Rupees Only</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, aspernatur iusto.</p>
+                            <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="fds (2).jpg" alt="">
+                            <h2>299 Rupees Only</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, aspernatur iusto.</p>
+                            <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="fds (7).jpg" alt="">
+                            <h2>299 Rupees Only</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, aspernatur iusto.</p>
+                            <button>Order Now</button>
+                        </div>
+                    </div>
+
+                    <div class="crd">
+                        <div class="card">
+                            <img src="fds (4).jpg" alt="">
+                            <h2>299 Rupees Only</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, aspernatur iusto.</p>
+                            <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="fds (5).jpg" alt="">
+                            <h2>299 Rupees Only</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, aspernatur iusto.</p>
+                            <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="fds (6).jpg" alt="">
+                            <h2>299 Rupees Only</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, aspernatur iusto.</p>
+                            <button>Order Now</button>
+                        </div>
+                    </div>
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Blogs</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="blog">
+                            <img src="fds (6).jpg" alt="">
+                            <h2>Fact About Indian Food</h2>
+                            <p>Indian cuisine is part of the landscape in most cities across America...</p>
+                            <a href="https://www.littleindiaofdenver.com/blog/7-facts-you-never-knew-about-indian-food/">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="fds (4).jpg" alt="">
+                            <h2>Diffrent Type of Burger</h2>
+                            <p>The burger is one of the most satisfying yet simple foods, an icon of modern society...</p>
+                            <a href="https://www.finedininglovers.com/article/burger-types-famous-to-make">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="fds (7).jpg" alt="">
+                            <h2>Delicious Checken Recipes</h2>
+                            <p>Consider for a moment if the dreaded dinnertime conversation went like this:...</p>
+                            <a href="https://themodernproper.com/60-best-chicken-breast-recipes">Read More</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Customer Review -->
+
+
+        <div class="head">
+            <h1>Customer <span>Review</span></h1>
+        </div>
+        <div class="review">
+
+            <div class="customer">
+                <img src="men (1).jpg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>A gem of a find! The cozy atmosphere and warm hospitality made us feel right at home. The menu had a great variety, and 
+                    the chef's attention to detail was evident in every bite. Can't wait to return and explore more of their delectable 
+                    offerings!"</p>
+                
+            </div>
+            <div class="customer">
+                <img src="men (2).jpg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Great ambiance and delicious food! The staff was friendly and accommodating, making sure our dining experience was 
+                    top-notch. The presentation of the dishes was impressive, and the flavors were exceptional. A must-visit for food 
+                    senthusiasts!</p>
+                
+            </div>
+            <div class="customer">
+                <img src="men (3).jpg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Amazing dining experience! The service was impeccable, and the food was bursting with flavor. I highly recommend 
+                    trying their signature dish - it's a culinary masterpiece. Will definitely be coming back for more!</p>
+                
+            </div>
+
+            
+        </div>
+        <div class="btn">
+            <button onclick="pre()">Prev</button>
+            <button onclick="next()">Next</button>
+
+        </div>
+        <!--Book a Table-->
+        <section class = "banner">
+            <h2>BOOK YOUR TABLE NOW</h2>
+            <div class = "card-container">
+                <div class = "card-img">
+                    <!-- image here -->
+                </div>
+
+                <div class = "card-content">
+                    <h3>Reservation</h3>
+                    <form>
+                        <div class = "form-row">
+                            <select name = "days">
+                                <option value = "day-select">Select Day</option>
+                                <option value = "sunday">Sunday</option>
+                                <option value = "monday">Monday</option>
+                                <option value = "tuesday">Tuesday</option>
+                                <option value = "wednesday">Wednesday</option>
+                                <option value = "thursday">Thursday</option>
+                                <option value = "friday">Friday</option>
+                                <option value = "saturday">Saturday</option>
+                            </select>
+
+                            <select name = "hours">
+                                <option value = "hour-select">Select Hour</option>
+                                <option value = "10">10: 00</option>
+                                <option value = "10">12: 00</option>
+                                <option value = "10">14: 00</option>
+                                <option value = "10">16: 00</option>
+                                <option value = "10">18: 00</option>
+                                <option value = "10">20: 00</option>
+                                <option value = "10">22: 00</option>
+                            </select>
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "text" placeholder="Full Name">
+                            <input type = "text" placeholder="Phone Number">
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "number" placeholder="How Many Persons?" min = "1">
+                            <input type = "submit" value = "BOOK TABLE">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+<!-- About Us-->
+        <div class="footer">
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Introduction:<br>
+                    Welcome to our restaurant management system, designed to simplify and optimize the operations of your food 
+                    establishment. Our comprehensive software solution is tailored to meet the unique needs of restaurant owners and 
+                    managers, empowering them to streamline processes and deliver exceptional dining experiences.<br>
+                    
+                    Benefits:
+                    Our restaurant management system enables you to:<br>
+                    1.Boost productivity and efficiency in day-to-day operations.<br>
+                    2.Reduce operational costs through effective inventory and staff management.<br>
+                    3.Enhance the overall dining experience for your customers.<br>
+                    4.Make informed business decisions based on comprehensive data and insights.</p>
+        </div>
+    </div>
+<!--contact -->
+<div class="container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email.." required>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+
+        <input type="submit" value="Submit" onclick="submitForm()">
+    </form>
+</div>
+
+<script src="script.js"></script>
+    <script src="Foodweb.js"></script>
+</body>
+</html>
